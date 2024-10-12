@@ -19,22 +19,4 @@ if len(detections) >0:
     left,top,right,bottom = detections[0].Left, detections[0].Top, detections[0].Right, detections[0].Bottom 
     print(detections[0])
 
-#saveImage("Image_with_detections.jpg", image)
 
-
-
-#camera = videoSource("/dev/video0") #'/dev/video0'for V4L2
-#display = videoOutput("display://0") #'my_video.mp4'for file
-
-#while display.IsStreaming():
-    
-    #img = camera.Capture()
-
-   # if img is None: #capture timeout
-     #   continue
-    
-    #detections = net.Detect(img) 
-    #print(detections)
-
-    #display.Render(img)
-    #display.SetStatus("Object Detection | Network{:.0f}FPS".format(net.GetNetworkFPS()))
