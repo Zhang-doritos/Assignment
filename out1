@@ -1,0 +1,12 @@
+[image]  loaded '/home/nvidia/jetson-inference/data/images/object_1.jpg'  (500x386, 3 channels)
+<detectNet.Detection object>
+   -- ClassID: 18
+   -- Confidence: 0.941895
+   -- Left:    0
+   -- Top:     14.0415
+   -- Right:   499
+   -- Bottom:  375.822
+   -- Width:   499
+   -- Height:  361.781
+   -- Area:    180529
+   -- Center:  (249.5, 194.932)
